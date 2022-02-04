@@ -1,0 +1,90 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: #5c5470;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+h2 {
+  font-size: 18px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  color: #5c5470;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 800px;
+  padding: 100px 0;
+}
+#today-date {
+  font-family: PT mono;
+  padding: 30px;
+  text-align: center;
+}
+.current {
+  font-size: 30px;
+}
+.current-city {
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+.city-box,
+.search-box,
+.current-button {
+  border: 2px solid #b7b7b7;
+}
+.search-box,
+.current-button {
+  color: #5c5470;
+}
+.tomorrow,
+.day-3,
+.day-4,
+.day-5,
+.day-6 {
+  margin-top: 5px;
+  padding: 15px 25px;
+}
+.today {
+  border: 2px solid #ab47bd;
+  padding: 15px 20px;
+  margin-top: 100px;
+}
+.tomorrow {
+  border: 2px solid #5a6aca;
+}
+.day-3 {
+  border: 2px solid #016fc5;
+}
+.day-4 {
+  border: 2px solid #42a5f5;
+}
+.day-5 {
+  border: 2px solid #1ab2a8;
+}
+.day-6 {
+  border: 2px solid #4eae53;
+}
+.weather-icon {
+  color: #726a95;
+  font-size: 40px;
+  opacity: 0.7;
+  text-align: center;
+}
